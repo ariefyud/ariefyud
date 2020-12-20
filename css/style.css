@@ -270,7 +270,7 @@ img {
               margin-right: 1rem;
               margin-bottom: 1.5rem; }
             .contact__container .screen-body-item .app-contact h4 {
-              font-size: 1.2rem; }
+              font-size: 1.3rem; }
         .contact__container .screen-body .left {
           display: flex;
           flex-direction: column; }
@@ -288,7 +288,7 @@ img {
               border: none;
               border-bottom: 0.1rem solid #666;
               color: #ddd;
-              font-size: 1.4rem;
+              font-size: 1.5rem;
               outline: none;
               transition: border-color 0.2s; }
               .contact__container .screen-body .app-form-group__control::placeholder {
@@ -302,7 +302,8 @@ img {
               border: none;
               color: #ea1d6f;
               font-size: 1.4rem;
-              font-weight: 700;
+              font-weight: 600;
+              text-transform: uppercase;
               cursor: pointer;
               outline: none;
               margin-top: 2rem;

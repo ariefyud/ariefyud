@@ -130,7 +130,7 @@
             }
 
             h4 {
-              font-size: 1.2rem;
+              font-size: 1.3rem;
             }
           }
         }
@@ -157,8 +157,7 @@
               border: none;
               border-bottom: 0.1rem solid #666;
               color: #ddd;
-              font-size: 1.4rem;
-              // text-transform: uppercase;
+              font-size: 1.5rem;
               outline: none;
               transition: border-color 0.2s;
 
@@ -178,7 +177,8 @@
               border: none;
               color: #ea1d6f;
               font-size: 1.4rem;
-              font-weight: 700;
+              font-weight: 600;
+              text-transform: uppercase;
               cursor: pointer;
               outline: none;
               margin-top: 2rem;
