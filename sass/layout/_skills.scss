@@ -1,0 +1,48 @@
+.skills {
+  padding-top: 10rem;
+  padding-bottom: 20rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+
+  &__heading {
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: 6rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: $black-1;
+    position: relative;
+
+    .border {
+      position: absolute;
+      width: 20%;
+      height: 0.4rem;
+      bottom: -1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: $purple-1;
+    }
+  }
+
+  &__description {
+    font-size: 1.9rem;
+    font-weight: 400;
+    color: $grey-1;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    min-width: 60rem;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7rem;
+
+    .icon {
+      display: flex;
+      height: 6rem;
+      width: 6rem;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.btn {
+  display: inline-block;
+  padding: 1.5rem 5rem;
+  background-color: $purple-1;
+  border-radius: 0.5rem;
+  color: $white;
+  font-weight: 400;
+  list-style: none;
+  text-decoration: none;
+  margin-top: 2.5rem;
+  box-shadow: 0 0.2rem 1rem rgba($black, 0.5);
+  transition: all 0.15s;
+
+  &:hover {
+    background-color: $pink-1;
+    transform: scale(1.1);
+  }
+}
+
+.mini {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  transition: all 0.15s;
+}

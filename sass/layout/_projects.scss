@@ -1,0 +1,269 @@
+.projects {
+  padding-bottom: 5rem;
+  margin-top: 6rem;
+  margin-bottom: 10rem;
+  min-height: 100vh;
+
+  &__heading {
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: 6rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 5rem;
+    color: $black-1;
+    position: relative;
+  }
+
+  &__border {
+    position: absolute;
+    width: 20%;
+    height: 0.4rem;
+    bottom: -1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: $purple-1;
+  }
+
+  // PROJECT 1
+  .project-1 {
+    min-height: 100vh;
+  }
+
+  .right-slide {
+    position: relative;
+    min-height: 80vh;
+
+    &__title {
+      margin-top: 15%;
+      color: $black-1;
+      position: absolute;
+      padding-left: 6%;
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    &__description {
+      font-size: 1.9rem;
+      font-weight: 400;
+      color: $grey-1;
+      margin-top: 19%;
+      width: 32%;
+      position: absolute;
+      color: $grey-1;
+      padding-left: 6%;
+
+      span {
+        width: 100%;
+        background: $purple-1;
+        display: block;
+        height: 0.5rem;
+        margin-top: 2rem;
+      }
+
+      .btn {
+        margin-right: 2rem;
+      }
+    }
+
+    img {
+      position: absolute;
+      margin-top: 4rem;
+    }
+
+    &__img1 {
+      width: 40%;
+      right: 3%;
+      top: 15%;
+    }
+
+    &__img2 {
+      width: 25%;
+      right: 41%;
+      top: 78%;
+    }
+
+    &__box {
+      width: 12rem;
+      height: 12rem;
+      position: absolute;
+      border: 0.5rem solid lightgray;
+      margin: auto;
+      top: 43%;
+      left: 0;
+      bottom: 0;
+      right: 5%;
+    }
+  }
+
+  // PROJECT 2
+  .project-2 {
+    min-height: 100vh;
+    margin-top: 12rem;
+  }
+
+  .left-slide {
+    position: relative;
+    min-height: 80vh;
+
+    &__title {
+      margin-top: 15%;
+      color: $black-1;
+      position: absolute;
+      padding-left: 8rem;
+      font-size: 3rem;
+      font-weight: 700;
+      left: 62%;
+    }
+
+    &__description {
+      font-size: 1.9rem;
+      font-weight: 400;
+      color: $grey-1;
+      margin-top: 19%;
+      width: 32%;
+      left: 62%;
+      position: absolute;
+      color: $grey-1;
+      padding-left: 8rem;
+
+      span {
+        width: 100%;
+        background: $purple-1;
+        display: block;
+        height: 0.5rem;
+        margin-top: 2rem;
+      }
+
+      .btn {
+        margin-right: 2rem;
+      }
+    }
+
+    img {
+      position: absolute;
+      margin-top: 4rem;
+    }
+
+    &__img1 {
+      width: 40%;
+      left: 3%;
+      top: 15%;
+    }
+
+    &__img2 {
+      width: 25%;
+      left: 41%;
+      top: 78%;
+    }
+
+    &__box {
+      width: 12rem;
+      height: 12rem;
+      position: absolute;
+      border: 0.5rem solid lightgray;
+      margin: auto;
+      top: 43%;
+      left: 48%;
+      bottom: 0;
+    }
+  }
+
+  .all-projects {
+    // visibility: hidden;
+    // opacity: 0;
+    margin-top: 18rem;
+    display: flex;
+    justify-content: center;
+
+    // table {
+    //   margin: 0;
+    //   padding: 0;
+    //   visibility: hidden;
+    // }
+
+    .title {
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .block {
+      width: 50rem;
+      height: 30rem;
+      overflow: hidden;
+      margin-bottom: 3rem;
+      position: relative;
+      justify-content: center;
+
+      #block-btn {
+        position: absolute;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 0.5rem 1rem;
+        top: 80%;
+        left: 50%;
+        transform: translateX(-50%) translateY(10rem);
+        z-index: 99;
+        transition: all 0.5s;
+        cursor: pointer;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        transition: all 1s;
+        cursor: pointer;
+        filter: none;
+      }
+
+      &:hover img {
+        transform: scale(1.5);
+      }
+
+      &:hover #block-btn {
+        transform: translateX(-50%) translateY(0);
+      }
+
+      &__text {
+        // opacity: 0;
+        text-align: center;
+        font-size: 1.7rem;
+        color: $white;
+        font-weight: 500;
+        position: absolute;
+        width: 80%;
+        top: -50%;
+        left: 50%;
+        transform: translate(-50%);
+        transition: all 0.6s;
+
+        p {
+          background-color: rgba($black, 0.8);
+          border-radius: 0.5rem;
+        }
+
+        .btn {
+          font-size: 1.2rem;
+          font-weight: 500;
+          padding: 0.8rem 1.5rem;
+          margin-top: 1.5rem;
+          margin-right: 1.2rem;
+          z-index: 2;
+        }
+      }
+
+      .blacklayer {
+        width: 50rem;
+        height: 30rem;
+        background-color: rgba($black, 0.3);
+        transition: all 1s;
+      }
+
+      &:hover .blacklayer {
+        transform: translateY(-75rem);
+      }
+    }
+  }
+}

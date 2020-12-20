@@ -1,0 +1,31 @@
+// $font-logo: 'Great Vibes', 'cursive'; //300
+// $font-title: 'Pacifico', 'cursive'; //300
+// $font-primary: 'Oswald', 'sans-serif'; //300, 400, 600
+// $font-secondary: 'Roboto', 'sans-serif'; //300, 400, 500, 700
+
+// FONT
+$font-primary: 'telegraf', 'sans-serif';
+
+// COLORS
+$white: rgba(255, 255, 255, 1);
+$black: rgba(0, 0, 0, 1);
+
+$purple-1: #7d31ea;
+$black-1: #272729;
+$grey-1: #3f3f3f;
+$pink-1: #de92aa;
+$cream-1: #fceed4;
+
+// RESPONSIVE BREAKPOINTS
+// Extra extra large	 min-width ≥ 1400px;
+$xxl: 1400px;
+// Extra large	 max-width ≤ 1200px;
+$xl: 1200px;
+// Large	 max-width ≤ 992px;
+$lg: 992px;
+// Medium 	 max-width ≤ 768px;
+$md: 768px;
+// Small	 max-width ≤ 576px;
+$sm: 576px;
+// X-Small	 max-width ≤ 375px;
+$xs: 375px;

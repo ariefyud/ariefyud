@@ -1,0 +1,39 @@
+.footer {
+  min-height: 17vh;
+  background-color: $black-1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .social-media {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+
+    &__items {
+      display: flex;
+    }
+
+    .icon-link {
+      font-size: 2rem;
+      text-decoration: none;
+      margin-left: 3rem;
+      color: $cream-1;
+      transition: color 0.3s;
+
+      &:hover {
+        color: $purple-1;
+      }
+    }
+  }
+
+  h6 {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    justify-content: flex-start;
+    color: $cream-1;
+  }
+}
