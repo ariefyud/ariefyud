@@ -78,7 +78,13 @@ function updatePercentage() {
   t3.progress();
 }
 
+// let query = window.matchMedia('(min-width: 993px)');
 
+// function responsive() {
+//   if (query == true) {
+//     return updatePercentage();
+//   }
+// }
 
 // PROJECT 2
 // let tl3 = new TimelineMax({onUpdate:updatePercentage});

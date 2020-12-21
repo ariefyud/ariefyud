@@ -1,9 +1,22 @@
 .header {
   min-height: 100vh;
+
+  @media only screen and (max-width: $lg) {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    line-height: 1.3;
+  }
 }
 
 .hero__heading {
   margin-top: 20rem;
+
+  @media only screen and (max-width: $md) {
+    font-size: 9rem;
+    padding: 0 30rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .heading-main {
     font-size: 10rem;
@@ -11,6 +24,16 @@
     font-weight: 800;
     color: $purple-1;
     animation: moveInRight 0.9s ease-out;
+
+    @media only screen and (max-width: $md) {
+      line-height: 1;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    @media only screen and (max-width: $sm) {
+      font-size: 7.5rem;
+    }
   }
 
   .heading-sub {
@@ -18,6 +41,10 @@
     font-weight: 600;
     color: $black-1;
     animation: moveInLeft 0.9s ease-out;
+
+    @media only screen and (max-width: $sm) {
+      font-size: 3rem;
+    }
 
     span {
       color: $purple-1;
@@ -28,5 +55,9 @@
     font-size: 2rem;
     font-weight: 600;
     animation: moveInLeft 0.9s ease-out;
+
+    @media only screen and (max-width: $sm) {
+      font-size: 1.8rem;
+    }
   }
 }

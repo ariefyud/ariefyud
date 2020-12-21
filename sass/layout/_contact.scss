@@ -140,12 +140,16 @@
           flex-direction: column;
 
           @media only screen and (max-width: $sm) {
-            margin-bottom: 3rem;
+            margin-bottom: 0;
           }
         }
 
         .app-form {
           margin-top: 4rem;
+
+          @media only screen and (max-width: $sm) {
+            margin-top: 0;
+          }
 
           &-group {
             margin-bottom: 1.5rem;

@@ -1,8 +1,13 @@
 .skills {
   padding-top: 10rem;
   padding-bottom: 20rem;
-  padding-left: 20rem;
-  padding-right: 20rem;
+  padding-left: 16rem;
+  padding-right: 16rem;
+
+  @media only screen and (max-width: $xl) {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   &__heading {
     font-family: $font-primary;
@@ -13,6 +18,11 @@
     margin-bottom: 5rem;
     color: $black-1;
     position: relative;
+    margin-bottom: 7rem;
+
+    @media only screen and (max-width: $sm) {
+      font-size: 5rem;
+    }
 
     .border {
       position: absolute;
@@ -22,6 +32,10 @@
       left: 50%;
       transform: translateX(-50%);
       background-color: $purple-1;
+
+      @media only screen and (max-width: $sm) {
+        width: 30%;
+      }
     }
   }
 
@@ -32,6 +46,16 @@
     padding-left: 15rem;
     padding-right: 15rem;
     min-width: 60rem;
+
+    @media only screen and (max-width: $xl) {
+      min-width: 20rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      margin-left: 3.5rem;
+      margin-right: 3.5rem;
+      text-align: justify;
+      display: flex;
+    }
   }
 
   &__container {
@@ -43,6 +67,11 @@
       display: flex;
       height: 6rem;
       width: 6rem;
+
+      @media only screen and (max-width: $sm) {
+        height: 5.1rem;
+        width: 5.1rem;
+      }
     }
   }
 }

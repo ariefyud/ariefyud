@@ -2,6 +2,10 @@
   margin-top: 4rem;
   padding-bottom: 15rem;
 
+  @media only screen and (max-width: $md) {
+    margin-top: -15rem;
+  }
+
   &__container {
     padding-left: 25rem;
     padding-right: 25rem;
@@ -9,10 +13,24 @@
     align-items: center;
     justify-content: center;
 
+    @media only screen and (max-width: $lg) {
+      display: flex;
+      flex-direction: column;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
     .profile-img {
       margin-right: 5rem;
       min-width: 20rem;
       position: relative;
+
+      @media only screen and (max-width: $lg) {
+        max-width: 15rem;
+        margin-bottom: 10rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
 
       &::after {
         content: '';
@@ -29,6 +47,12 @@
     }
 
     .profile-details {
+      @media only screen and (max-width: $lg) {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        text-align: justify;
+      }
+
       .heading {
         text-align: center;
         line-height: 0;
@@ -45,16 +69,36 @@
         }
       }
 
+      @media only screen and (max-width: $sm) {
+        font-size: 1.7rem;
+      }
+
       .description {
         flex: 1;
         font-size: 1.9rem;
         font-weight: 400;
         color: $grey-1;
+        min-width: 50rem;
+        text-align: justify;
+
+        @media only screen and (max-width: $sm) {
+          padding-left: 0;
+          padding-right: 0;
+        }
+
+        @media only screen and (max-width: $lg) {
+          padding-left: 5rem;
+          padding-right: 5rem;
+        }
       }
 
       .social-media {
         .nav-items {
           display: flex;
+
+          @media only screen and (max-width: $lg) {
+            justify-content: center;
+          }
         }
 
         .nav-links {
