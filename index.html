@@ -12,7 +12,7 @@
   <title>Arief Yudistira || Frontend Developer</title>
 </head>
 
-<body>
+<body id="Home">
   <!-- Header Section -->
   <header class="header">
   
@@ -25,11 +25,11 @@
   
       <div class="nav-mini__nav">
         <ul class="nav-mini__list">
-          <li class="nav-mini__item"><a href="#" class="nav-mini__link">Home</a></li>
-          <li class="nav-mini__item"><a href="#" class="nav-mini__link">About Me</a></li>
-          <li class="nav-mini__item"><a href="#" class="nav-mini__link">Skills</a></li>
-          <li class="nav-mini__item"><a href="#" class="nav-mini__link">My Works</a></li>
-          <li class="nav-mini__item"><a href="#" class="nav-mini__link">Contact</a></li>
+          <li class="nav-mini__item"><a href="#Home" class="nav-mini__link nav-home">Home</a></li>
+          <li class="nav-mini__item"><a href="#About" class="nav-mini__link nav-about">About Me</a></li>
+          <li class="nav-mini__item"><a href="#Skills" class="nav-mini__link nav-skills">Skills</a></li>
+          <li class="nav-mini__item"><a href="#Projects" class="nav-mini__link nav-projects">My Works</a></li>
+          <li class="nav-mini__item"><a href="#Contact" class="nav-mini__link nav-contact">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -44,7 +44,7 @@
   </header>
 
   <!-- About Section -->
-  <section class="about">
+  <section id="About" class="about">
     <div class="about__container">
       <div class="profile-img"
       data-aos="fade-right" 
@@ -78,7 +78,7 @@
   </section>
 
   <!-- Skills Section -->
-  <section class="skills">
+  <section id="Skills" class="skills">
     <h1 class="skills__heading"
     data-aos="fade-up" 
       data-aos-offset="300"
@@ -109,7 +109,7 @@
   </section>
 
   <!-- Project Section -->
-  <section class="projects"
+  <section id="Projects" class="projects"
   data-aos="fade-up" 
       data-aos-offset="300"
       data-aos-delay="20"
@@ -302,7 +302,7 @@
   </section>
   
   <!-- Contact Us Section -->
-  <section class="contact">
+  <section id="Contact" class="contact">
     <div class="contact__container">
       <div class="screen">
         <div class="screen-header">
@@ -405,6 +405,7 @@
   </script>
 
   <script src="javascript/animate.js"></script>
+  <script src="javascript/nav-mini.js"></script>
   <script src="javascript/projects.js"></script>
   <script src="javascript/quote.js"></script>
   <script src="javascript/toggle.js"></script>
