@@ -183,6 +183,8 @@
       @media only screen and (max-width: $sm) {
         padding-left: 0;
         padding-right: 0;
+        // background-color: rgba($black, 0.8);
+        // border-radius: 0.5rem;
       }
 
       @media only screen and (max-width: $lg) {
@@ -192,7 +194,15 @@
         margin-top: 25%;
         padding-left: 6%;
         left: 0;
+        color: white;
+        // background-color: rgba($black, 0.8);
+        // border-radius: 0.5rem;
       }
+
+      // @media only screen and (max-width: $xl) {
+      //   background-color: rgba($black, 0.8);
+      //   border-radius: 0.5rem;
+      // }
 
       span {
         width: 100%;
@@ -366,4 +376,21 @@
       }
     }
   }
+
+  // .see-more {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   width: 9rem;
+  //   height: 10rem;
+  //   padding: 1rem 2rem;
+  //   margin: 3rem 4rem;
+  //   display: inline-block;
+
+  //   .more {
+  //     cursor: pointer;
+  //     width: 8rem;
+  //     height: 6rem;
+  //   }
+  // }
 }
